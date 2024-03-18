@@ -6,3 +6,4 @@ class CustomUser(models.Model):
     cd = models.CharField(max_length=200)
     cddd = models.CharField(max_length=250)
     new = models.CharField(max_length=150)
+    merge_new = models.CharField(max_length=150)
