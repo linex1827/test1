@@ -8,3 +8,5 @@ class CustomUser(models.Model):
     new = models.CharField(max_length=150)
     new = models.IntegerField()
     merge_new = models.CharField(max_length=150)
+
+    new_merge2 = models.CharField(max_length=150)
