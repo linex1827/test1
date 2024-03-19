@@ -11,4 +11,3 @@ class CustomUser(models.Model):
 
     new_merge2 = models.CharField(max_length=150)
 
-    new_today = models.CharField(max_length=150)
